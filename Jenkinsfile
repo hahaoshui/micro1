@@ -1,11 +1,10 @@
-pipeline{
+pipeline {
   agent {label "linux"}
   stages{
     stage('hello'){
-      steps{
-        echo "hello from Jenkinsfile"
-
-      }
+        steps{
+          echo "hello from Jenkinsfile"
+        }
+    }
   }
-}
 }
